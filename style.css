@@ -30,7 +30,7 @@ a {
     font-family: "IBM Plex Mono", monospace;
     font-variant: normal;
     font-style: italic;
-    font-size: 10em;
+    font-size: 5em;
     text-align: center;
     color: var(--text_colour);
     text-decoration: none;

@@ -23,7 +23,6 @@ a {
     font-style: italic;
     font-size: 50px;
     color: var(--text_colour);
-    text-align: center;
     text-decoration: underline;
     text-decoration-color: var(--link_colour);
     text-decoration-style: wavy;

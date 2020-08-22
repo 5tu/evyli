@@ -16,17 +16,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.mango,
 a {
     font-family: "IBM Plex Mono", monospace;
     font-variant: normal;
     font-style: italic;
-    font-size: 50px;
+    font-size: 10em;
     color: var(--text_colour);
-    text-decoration: underline;
-    text-decoration-color: var(--link_colour);
-    text-decoration-style: wavy;
-    text-decoration-skip-ink: none;
+    width: 100%;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .9s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='aquamarine' stroke-width='0.6' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 100%;
+    border-bottom: 0;
+    text-decoration: none;
 }
 
 a:hover {

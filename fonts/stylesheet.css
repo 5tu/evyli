@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'HelveticaNowMicro';
+    src: url('HelveticaNowMicro-Bold.woff2') format('woff2'),
+        url('HelveticaNowMicro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNowMicro';
+    src: url('HelveticaNowMicro-Regular.woff2') format('woff2'),
+        url('HelveticaNowMicro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNowMicro';
+    src: url('HelveticaNowMicro-Light.woff2') format('woff2'),
+        url('HelveticaNowMicro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
